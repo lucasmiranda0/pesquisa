@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/pagina2.css">
+    <title>Pesquisa musical</title>
+</head>
+<body>
+    <div class="flexbox-container">
+        <div class="flexbox-item flexbox-item-1">
+            <h1>Você escuta outros estilos musicais além de Heavy Metal?</h1>
+            <input onclick="simounao('sim')" type="radio" id="sim" name="resposta" value="sim">
+            <label for="simfor">Sim</label><br>
+            <input onclick="simounao('nao')" type="radio" id="nao" name="resposta" value="nao">
+            <label for="naofor">Não</label><br>
+        </div>
+        <div id="divsim" class="flexbox-item flexbox-item-2">
+            <p>Quais outros estilos musicais você escuta?</p>
+            <textarea id="respostasim" cols="50" rows="3"></textarea>
+        </div>
+        <div id="divnao" class="flexbox-item flexbox-item-3">
+            <p>Como foi sua introdução ao Heavy Metal?</p>
+            <textarea id="respostanao" cols="50" rows="3"></textarea>
+        </div>        
+        <div class="flexbox-item flexbox-item-4">
+            <br>
+            <a href="index.html"><button id="botaopag2A">Página anterior</button></a></button>
+            <a href="pagina3.html"><button id="botaopag2P"> Próxima página</button></a>
+        </div>
+    </div>
+    
+    <script src="/pagina2.js"></script>
+    
+</body>
+</html>
